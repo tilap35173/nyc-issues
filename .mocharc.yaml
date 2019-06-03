@@ -1,0 +1,9 @@
+diff: true
+color: true
+extension:
+  - ts
+reporter: min
+require:
+  - "ts-node/register"
+spec: test/**/*.spec.ts
+ui: bdd

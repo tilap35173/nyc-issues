@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/specs/**/*", "**/*.spec.ts", "**/*.d.ts", "/"],
+  "extension": [".ts"],
+  "reporter": ["text", "text-summary", "html"],
+  "all": true,
+  "sourceMap": true,
+  "instrument": true
+}

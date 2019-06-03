@@ -1,0 +1,23 @@
+{
+  "name": "nyc-issues",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "William Lapointe",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.2.0"
+  }
+}
